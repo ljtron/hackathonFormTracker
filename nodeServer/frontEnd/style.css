@@ -1,0 +1,101 @@
+html,
+body {
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Space Mono", sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: GhostWhite;
+}
+
+
+body {
+     background-image: url("beautiful-shining-stars-night-sky.jpg");
+     height: 100%;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+
+header{
+     width: auto;
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 10px;
+}
+
+.logo {
+     display: flex;
+     align-items: center;
+}
+
+.logo img{
+     width: 120px; /* Set the width of your logo */
+     height: auto; /* Maintain aspect ratio */
+    
+}
+
+.logo p{
+     font-weight: bold;
+     font-size: 22px;
+}
+
+.navi {
+     border-radius: 20px; /* Apply border-radius to the navbar */
+     background-color: rgb(249, 138, 157); /* Add a background color to the navbar */
+     padding: 20px 20px; /* Add padding for better appearance */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.navi ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: inline-block; /* Use flexbox to distribute items horizontally */
+ }
+ 
+ .navi li{
+     display: inline-block;
+ }
+ 
+ .navi a {
+     text-decoration: none;
+     color: #fff; /* Set link color to white */
+     font-size: bold;
+     padding: 5px 10px;
+     border-radius: 10px; /* Apply border-radius to the links */
+     transition: ease 0.3s; /* Add a smooth hover effect */
+ }
+ 
+ .navi a:hover {
+     background-color: #555; /* Change the background color on hover */
+}
+
+
+/* For accessing the webcam*/
+
+.center-content{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 130px;
+}
+
+.container {
+     margin: 0 auto;
+     width: 600px;
+     height: 500px;
+     border: solid 5px brown;
+     
+}
+
+#webcam{
+     width: 600px;
+     height: 500px;
+     background-color: burlywood;
+}
+
+
